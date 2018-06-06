@@ -1,0 +1,28 @@
+{
+  "name": "@jessitron/play-ts-package",
+  "version": "1.0.0",
+  "description": "Jess plays with ts and npm",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --register ts-node/register test/**/*.ts",
+    "build": "tsc --project ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessitron/play-ts-package.git"
+  },
+  "author": "jessitron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessitron/play-ts-package/issues"
+  },
+  "homepage": "https://github.com/jessitron/play-ts-package#readme",
+  "devDependencies": {
+    "@types/node": "^10.3.1",
+    "typescript": "^2.9.1"
+  },
+  "files": [
+    "lib/**/*",
+    "src/**/*"
+  ]
+}
