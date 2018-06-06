@@ -1,7 +1,7 @@
 {
-  "name": "@jessitron/play-ts-package",
+  "name": "@jessitron/git-branch-to-npm-tag",
   "version": "1.0.0",
-  "description": "Jess plays with ts and npm",
+  "description": "Convert a git branch name to a valid npm tag",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --require ts-node/register test/**/*.ts",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jessitron/play-ts-package.git"
+    "url": "git+https://github.com/atm-bankomat/git-branch-to-npm-tag"
   },
   "author": "jessitron",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jessitron/play-ts-package/issues"
+    "url": "https://github.com/atm-bankomat/git-branch-to-npm-tag"
   },
-  "homepage": "https://github.com/jessitron/play-ts-package#readme",
+  "homepage": "https://github.com/atm-bankomat/git-branch-to-npm-tage#readme",
   "devDependencies": {
     "@types/mocha": "^5.2.1",
     "@types/node": "^10.3.1",
