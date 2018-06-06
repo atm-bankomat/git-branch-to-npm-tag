@@ -4,6 +4,6 @@
         "target": "es2017",
         "declaration": true,
         "sourceMap": true,
-        "outDir": "lib",
+        "outDir": "lib"
     }
 }
