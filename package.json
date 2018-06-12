@@ -1,6 +1,6 @@
 {
   "name": "@jessitron/git-branch-to-npm-tag",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Convert a git branch name to a valid npm tag",
   "main": "lib/index.js",
   "scripts": {
